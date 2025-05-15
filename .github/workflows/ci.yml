@@ -25,6 +25,12 @@ jobs:
     - name: Run Linter
       run: npm run lint
 
+    - name: Run unit tests
+      run: npm run test
+
+    - name: Vérifier le format avec Prettier
+      run: npm run format
+
     - name: Build Docker image
       run: docker build -t ${{ secrets.DOCKER_USERNAME }}/ci-cd-action-node-app:${{ github.sha }} .
 

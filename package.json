@@ -4,7 +4,9 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "lint": "eslint app.js"
+    "lint": "eslint app.js",
+    "test": "jest",
+    "format": "prettier --check ."
   },
   "dependencies": {
     "express": "^4.18.2"
