@@ -21,15 +21,15 @@ Mettre en œuvre un pipeline d’intégration et livraison continues (CI/CD) inc
 
 ## 🧱 Stack technique
 
-| Composant     | Rôle                                   |
-|---------------|----------------------------------------|
-| Node.js       | Backend simple (Express "Hello World") |
-| ESLint        | Analyse statique du code               |
-| Prettier      | Formatage automatique du code          |
-| Jest          | Tests unitaires                        |
-| Docker        | Conteneurisation de l'application      |
-| GitHub Actions| Automatisation CI/CD                   |
-| Docker Hub    | Registre public d’images Docker        |
+| Composant      | Rôle                                   |
+| -------------- | -------------------------------------- |
+| Node.js        | Backend simple (Express "Hello World") |
+| ESLint         | Analyse statique du code               |
+| Prettier       | Formatage automatique du code          |
+| Jest           | Tests unitaires                        |
+| Docker         | Conteneurisation de l'application      |
+| GitHub Actions | Automatisation CI/CD                   |
+| Docker Hub     | Registre public d’images Docker        |
 
 ---
 
@@ -69,15 +69,15 @@ Mettre en œuvre un pipeline d’intégration et livraison continues (CI/CD) inc
 
 ## 🧱 Stack technique
 
-| Composant     | Rôle                                   |
-|---------------|----------------------------------------|
-| Node.js       | Backend simple (Express "Hello World") |
-| ESLint        | Analyse statique du code               |
-| Prettier      | Formatage automatique du code          |
-| Jest          | Tests unitaires                        |
-| Docker        | Conteneurisation de l'application      |
-| GitHub Actions| Automatisation CI/CD                   |
-| Docker Hub    | Registre public d’images Docker        |
+| Composant      | Rôle                                   |
+| -------------- | -------------------------------------- |
+| Node.js        | Backend simple (Express "Hello World") |
+| ESLint         | Analyse statique du code               |
+| Prettier       | Formatage automatique du code          |
+| Jest           | Tests unitaires                        |
+| Docker         | Conteneurisation de l'application      |
+| GitHub Actions | Automatisation CI/CD                   |
+| Docker Hub     | Registre public d’images Docker        |
 
 ---
 
@@ -106,8 +106,6 @@ Mettre en œuvre un pipeline d’intégration et livraison continues (CI/CD) inc
 │ └── ci.yml # Pipeline GitHub Actions
 └── README.md # Documentation projet
 
-
-
 ---
 
 ## 🧪 Tester localement
@@ -127,3 +125,4 @@ L’image est générée automatiquement à chaque commit et publiée sur Docker
 
 ✅ Badge de statut
 
+```
